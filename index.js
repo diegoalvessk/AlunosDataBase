@@ -2,7 +2,6 @@ const express = require('express')
 const app = express()
 const db = require('./dataBase')
 const dbcontext = db.AlunosDataBase()
-
 app.use(express.json())
 
 app.listen(3001, () => {
